@@ -1,0 +1,64 @@
+body {
+    background-color: black;
+    
+}
+
+
+#shapes {
+    
+    
+}
+
+#triangle-up {
+    width: 0;
+    height:0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid red;
+    position: fixed;
+    top: 300px;
+    left: 300px;
+}
+#triangle-left {
+    width: 0;
+    height:0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 50px solid red;
+    position: fixed;
+    top: 350px;
+    left: 275px;
+}
+
+#triangle-right {
+    width: 0;
+    height:0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 50px solid red;
+    position: fixed;
+    top: 350px;
+    left: 375px;
+}
+
+#triangle-tiny-left {
+    width: 0;
+    height:0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 25px solid gold;
+    position: fixed;
+    top: 400px;
+    left: 300px;
+}
+
+#triangle-tiny-right {
+    width: 0;
+    height:0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 25px solid gold;
+    position: fixed;
+    top: 400px;
+    left: 375px;
+}
